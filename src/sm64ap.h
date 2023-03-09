@@ -53,6 +53,7 @@ extern "C" void SM64AP_DeathLinkClear();
 extern "C" void SM64AP_DeathLinkSend();
 
 // Local Moves
+extern "C" bool SM64AP_MoveRandomizerActive();
 extern "C" bool SM64AP_CanDoubleJump();
 extern "C" bool SM64AP_CanTripleJump();
 extern "C" bool SM64AP_CanLongJump();
@@ -92,6 +93,7 @@ bool SM64AP_HaveCannon(int);
 bool SM64AP_DeathLinkPending();
 void SM64AP_DeathLinkClear();
 void SM64AP_DeathLinkSend();
+bool SM64AP_MoveRandomizerActive();
 bool SM64AP_CanDoubleJump();
 bool SM64AP_CanTripleJump();
 bool SM64AP_CanLongJump();

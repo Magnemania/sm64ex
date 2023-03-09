@@ -493,6 +493,10 @@ void SM64AP_DeathLinkSend() {
     }
 }
 
+bool SM64AP_MoveRandomizerActive() {
+    return sm64_randomize_moves;
+}
+
 bool SM64AP_CanDoubleJump() {
     return sm64_can_doublejump || !sm64_randomize_moves;
 }
